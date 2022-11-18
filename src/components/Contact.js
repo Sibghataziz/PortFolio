@@ -26,6 +26,9 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
+    setTimeout(()=>{
+      setButtonText("Sent")
+    },3000)
     // let response = await fetch("http://localhost:5000/contact", {
     //   method: "POST",
     //   headers: {

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import sibghat from "../assets/img/sibghat.png";
+import sibghat from "../assets/img/sibghat.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -73,7 +73,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={sibghat} alt="Header Img" style={{width:"400px", height:"400px"}}/>
+                  <img src={sibghat} alt="Header Img" style={{width:"400px", height:"500px"}}/>
                 </div>}
             </TrackVisibility>
           </Col>

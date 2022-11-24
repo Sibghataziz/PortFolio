@@ -3,7 +3,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import navIcon4 from '../assets/img/GitHub-Mark.png';
+import navIcon4 from '../assets/img/GitHub-Mark.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -62,7 +62,7 @@ export const NavBar = () => {
                 border : "1px solid white",
                 padding : "14.5px",
                 marginLeft : "20px"
-              }}  href="https://rxresu.me/sibghat.aziz98/sibghatazizresume" target="_blank"><span>Resume</span></a>
+              }}  href='https://drive.google.com/file/d/1XghY3Ww9SJK4KuyTGe0WHe_iVMwVK3R2/view?usp=share_link' target="_blank"><span>Resume</span></a>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>

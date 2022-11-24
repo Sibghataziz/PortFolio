@@ -7,8 +7,8 @@ import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
   const imageStyle = {
-    width : "200px",
-    height : "200px"
+    width : "150px",
+    height : "150px"
   }
   const responsive = {
     superLargeDesktop: {

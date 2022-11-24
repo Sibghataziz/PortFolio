@@ -10,9 +10,6 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           {/* <MailchimpForm /> */}
-          <Col size={12} sm={6}>
-          <h1 style={{color:"white", fontSize:"50px"}}>Md Sibghat Aziz</h1>
-          </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon" style={{marginTop: "10px"}}>
               <a href="https://www.linkedin.com/in/md-sibghat-aziz-9b19641ab/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
